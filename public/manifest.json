@@ -1,0 +1,64 @@
+{
+  "name": "MediCheck - Smart Medicine Management",
+  "short_name": "MediCheck",
+  "description": "Track your medicines, get reminders, and check interactions with MediCheck",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0066CC",
+  "icons": [
+    {
+      "src": "/icon-light-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Medicine",
+      "short_name": "Add",
+      "description": "Quickly add a new medicine",
+      "url": "/dashboard/scanner?action=add",
+      "icons": [
+        {
+          "src": "/icon-light-32x32.png",
+          "sizes": "32x32"
+        }
+      ]
+    },
+    {
+      "name": "View Reminders",
+      "short_name": "Reminders",
+      "description": "Check your medication reminders",
+      "url": "/dashboard/reminders",
+      "icons": [
+        {
+          "src": "/icon-light-32x32.png",
+          "sizes": "32x32"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
